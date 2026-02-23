@@ -1,0 +1,28 @@
+{
+  "name": "wup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "type": "module",
+  "bin": {
+    "wup": "bin/index.js",
+    "test-scoop": "bin/test-scoop.js",
+    "test-npm": "bin/test-npm.js"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.0.1",
+    "execa": "^9.6.1",
+    "npm-check-updates": "^19.4.1",
+    "picocolors": "^1.1.1"
+  },
+  "overrides": {
+    "list": "link:../../AppData/Local/pnpm/global/5/node_modules/list"
+  }
+}
