@@ -1,18 +1,25 @@
 {
-  "name": "wup",
+  "name": "winup",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A CLI command that helps both scoop and npm package updates for Windows",
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/4laoshiren/wup#readme",
+  "bugs": {
+    "url": "https://github.com/4laoshiren/wup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4laoshiren/wup.git"
+  },
   "license": "ISC",
-  "packageManager": "pnpm@10.28.2",
+  "author": "zz4zz",
   "type": "module",
+  "main": "index.js",
   "bin": {
     "wup": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@clack/prompts": "^1.0.1",
@@ -20,7 +27,6 @@
     "npm-check-updates": "^19.4.1",
     "picocolors": "^1.1.1"
   },
-  "overrides": {
-    "list": "link:../../AppData/Local/pnpm/global/5/node_modules/list"
-  }
+  "devDependencies": {},
+  "packageManager": "pnpm@10.28.2"
 }

@@ -71,7 +71,7 @@ if (package_name) {
         } catch {
             spin.stop(pc.yellow('Done'));
             print_header('scoop');
-            console.log(pc.yellow('  ✖ scoop is not available'));
+            console.log(pc.yellow('  ✖ scoop is not available. Check https://scoop.sh/ for more information.'));
         }
     }
     // 如果用户选择npm，执行npm的检查更新
