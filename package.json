@@ -1,6 +1,6 @@
 {
   "name": "winup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI command that helps both scoop and npm package updates for Windows",
   "keywords": [],
   "homepage": "https://github.com/4laoshiren/wup#readme",
